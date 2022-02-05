@@ -25,7 +25,6 @@ const Foruns = () => {
                 <Project key={item.id}>
                     <img alt="foto curso"/>
                     <h3>Curso: {item.titulo}</h3>
-                    <h4>Participantes: </h4>
                     <div>
                         <p>Acessar Fórum</p>
                     </div>

@@ -13,24 +13,21 @@ const Inicio = () => {
                 <h2>Início</h2>
                 <br /><br />
             </section>
-            <section>
-                <Link to="/Login/Inicio/Perfil">Perfil</Link>
-            </section>
 
             <section>
                 <Link to="/Login/Inicio/Previa">Prévia</Link>
             </section>
 
             <section>
-                <Link to="/Login/Inicio/Cursos_Disp">Cursos Disponíveis</Link>
-            </section>
-
-            <section>
-                <Link to="/Login/Inicio/Cursos_Adq">Cursos Adquiridos</Link>
+                <Link to="/adm/Inicio/AdmCurso">Administrador</Link>
             </section>
 
             <section>
                 <Link to="/Login/Inicio/Foruns">Fóruns dos Cursos</Link>
+            </section>
+
+            <section>
+                <Link to="/adm/Inicio/StoreCurso">Cadastre um novo curso</Link>
             </section>
         </S.Main>
         <Footer />

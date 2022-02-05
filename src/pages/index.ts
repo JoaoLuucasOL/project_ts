@@ -7,3 +7,6 @@ export {default as Previa} from "./Previa"
 export {default as Foruns} from "./Foruns"
 export {default as Cursos_Disp} from "./Cursos_Disp"
 export {default as Cursos_Adq} from "./Cursos_Adq"
+
+export {default as StoreCurso} from "./Adm/Curso/Store"
+export {default as AdmCurso} from "./Adm/Curso"

@@ -13,6 +13,13 @@ export const Nav = styled.header `
         li {
             list-style-type: none;
             padding: 0.5rem;
+            button {
+                background-color: transparent;
+                border: 0;
+                font-size: 1rem;
+                color: ${colors.borderBeige};
+                cursor: pointer;
+            }
             &:hover {
                 text-decoration: none;
                 color: ${colors.borderBeige};
