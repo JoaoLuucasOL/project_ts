@@ -5,7 +5,6 @@ import { apiCurso } from "services/data";
 import { ICursoData } from "Interface/curso.interface";
 import { Loading } from "components";
 import Button from "styles/Button";
-import { FcAddDatabase } from "react-icons/fc";
 import { BsPencilSquare, BsTrash2 } from "react-icons/bs";
 import { useHistory } from "react-router-dom";
 import { confirmAlert } from "react-confirm-alert";
