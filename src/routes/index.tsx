@@ -1,6 +1,5 @@
 import {Switch, Route} from "react-router-dom"
 import {Home, Inicio, Perfil, Cadastro, Login, Previa, Foruns, Cursos_Disp, Cursos_Adq} from "pages"
-import { PrivateRoute } from "./PrivateRoute"
 
 const Routes = () => {
     return (
