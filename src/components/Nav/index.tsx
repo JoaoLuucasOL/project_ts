@@ -26,9 +26,7 @@ const Nav = () => {
             <li>
                 <Link to="/Login/Inicio">Início</Link>
             </li>
-            <li>
-                <Link to="/Login/Inicio/Perfil">Perfil</Link>
-            </li>
+            
             <li>
                 <button type="button" onClick={sair}>
                     Sair
